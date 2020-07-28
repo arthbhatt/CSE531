@@ -1,0 +1,125 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+L1	lock_test.c	/^lock_t L1;$/;"	v
+N	prod_cons_m.c	8;"	d	file:
+N	prod_cons_s.c	8;"	d	file:
+P	sem.h	/^void P(semaphore_t *sem)$/;"	f
+P	sem_test.c	/^void P(semaphore_t *sem)$/;"	f
+V	sem.h	/^void V(semaphore_t * sem)$/;"	f
+V	sem_test.c	/^void V(semaphore_t * sem)$/;"	f
+_GNU_SOURCE	race-c.c	4;"	d	file:
+array	proj.c	/^int array[3] = {0,0,0};$/;"	v
+buff_mon	prod_cons_m.c	/^monitor_t buff_mon;$/;"	v
+buffer	prod_cons_m.c	/^int buffer[N];$/;"	v
+buffer	prod_cons_s.c	/^int buffer[N];$/;"	v
+child	proj.c	/^void child(int id)$/;"	f
+cond	sem.h	/^     pthread_cond_t cond;$/;"	m	struct:semaphore_t
+cond	sem_test.c	/^     pthread_cond_t cond;$/;"	m	struct:semaphore_t	file:
+cons	prod_cons_m.c	/^void cons(int *arg)$/;"	f
+cons	prod_cons_s.c	/^void cons(int *arg)$/;"	f
+cons_delay	prod_cons_m.c	/^int in = 0, out = 0, count=0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+cons_delay	prod_cons_s.c	/^int in = 0, out = 0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+count	prod_cons_m.c	/^int in = 0, out = 0, count=0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+count	sem.h	/^     int count;$/;"	m	struct:semaphore_t
+count	sem_test.c	/^     int count;$/;"	m	struct:semaphore_t	file:
+done	proj.c	/^int done[3] = {0,0,0};$/;"	v
+empty	prod_cons_m.c	/^monitor_cond_t empty, full;$/;"	v
+empty	prod_cons_s.c	/^semaphore_t empty, full, mutex;$/;"	v
+full	prod_cons_m.c	/^monitor_cond_t empty, full;$/;"	v
+full	prod_cons_s.c	/^semaphore_t empty, full, mutex;$/;"	v
+func1	race-c.c	/^func1()$/;"	f
+func1	race-p.c	/^func1()$/;"	f
+func2	race-c.c	/^func2(void* arg)$/;"	f
+func2	race-p.c	/^func2(void* arg)$/;"	f
+function_1	lock_test.c	/^void function_1(void)$/;"	f
+function_1	sem_test.c	/^void function_1(void)$/;"	f
+function_1	thread_test.c	/^void function_1(int *arg)$/;"	f
+function_2	lock_test.c	/^void function_2(void)$/;"	f
+function_2	sem_test.c	/^void function_2(void)$/;"	f
+function_2	thread_test.c	/^void function_2(int *arg)$/;"	f
+function_3	lock_test.c	/^void function_3(void)$/;"	f
+function_3	sem_test.c	/^void function_3(void)$/;"	f
+function_3	thread_test.c	/^void function_3(int *arg)$/;"	f
+global	thread_test.c	/^int global=0;$/;"	v
+global_ID	read_write_m.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+global_ID	read_write_s.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+in	prod_cons_m.c	/^int in = 0, out = 0, count=0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+in	prod_cons_s.c	/^int in = 0, out = 0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+init_lock	lock_test.c	/^void init_lock(lock_t *l)$/;"	f
+init_monitor	monitor.h	/^void init_monitor(monitor_t *M)$/;"	f
+init_monitor_cond	monitor.h	/^void init_monitor_cond(monitor_cond_t *monitor_cond)$/;"	f
+init_sem	sem.h	/^void init_sem(semaphore_t *s, int i)$/;"	f
+init_sem	sem_test.c	/^void init_sem(semaphore_t *s, int i)$/;"	f
+item_num	prod_cons_m.c	/^int in = 0, out = 0, count=0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+item_num	prod_cons_s.c	/^int in = 0, out = 0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+lock	lock_test.c	/^void lock(lock_t *l)$/;"	f
+lock_t	lock_test.c	/^typedef pthread_mutex_t lock_t;$/;"	t	file:
+main	lock_test.c	/^int main()$/;"	f
+main	prod_cons_m.c	/^int main()$/;"	f
+main	prod_cons_s.c	/^int main()$/;"	f
+main	proj.c	/^int main()$/;"	f
+main	race-c.c	/^main()$/;"	f
+main	race-p.c	/^main()$/;"	f
+main	read_write_m.c	/^int main()$/;"	f
+main	read_write_s.c	/^int main()$/;"	f
+main	sem_test.c	/^int main()$/;"	f
+main	thread_test.c	/^int main()$/;"	f
+monitor_cond_t	monitor.h	/^typedef pthread_cond_t monitor_cond_t;$/;"	t
+monitor_entry	monitor.h	/^void monitor_entry(monitor_t *M)$/;"	f
+monitor_exit	monitor.h	/^void monitor_exit(monitor_t *M)$/;"	f
+monitor_signal	monitor.h	/^void monitor_signal(monitor_t *M, monitor_cond_t *monitor_cond)$/;"	f
+monitor_t	monitor.h	/^typedef pthread_mutex_t monitor_t;$/;"	t
+monitor_wait	monitor.h	/^void monitor_wait(monitor_t *M, monitor_cond_t *monitor_cond)$/;"	f
+mutex	prod_cons_s.c	/^semaphore_t empty, full, mutex;$/;"	v
+mutex	proj.c	/^semaphore_t mutex;$/;"	v
+mutex	read_write_s.c	/^semaphore_t r_sem, w_sem, mutex;$/;"	v
+mutex	sem.h	/^     pthread_mutex_t mutex;$/;"	m	struct:semaphore_t
+mutex	sem_test.c	/^     pthread_mutex_t mutex;$/;"	m	struct:semaphore_t	file:
+mutex	sem_test.c	/^semaphore_t mutex;$/;"	v
+out	prod_cons_m.c	/^int in = 0, out = 0, count=0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+out	prod_cons_s.c	/^int in = 0, out = 0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+printing	proj.c	/^int printing=0, updating=0;$/;"	v
+prod	prod_cons_m.c	/^void prod (int *arg)$/;"	f
+prod	prod_cons_s.c	/^void prod (int *arg)$/;"	f
+prod_delay	prod_cons_m.c	/^int in = 0, out = 0, count=0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+prod_delay	prod_cons_s.c	/^int in = 0, out = 0, item_num=0, prod_delay = 1, cons_delay = 1;$/;"	v
+r_cond	read_write_m.c	/^monitor_cond_t r_cond, w_cond;$/;"	v
+r_sem	read_write_s.c	/^semaphore_t r_sem, w_sem, mutex;$/;"	v
+rc	read_write_m.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+rc	read_write_s.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+read_write	read_write_m.c	/^monitor_t read_write;$/;"	v
+reader	read_write_m.c	/^void reader(void)$/;"	f
+reader	read_write_s.c	/^void reader(void)$/;"	f
+reader_entry	read_write_m.c	/^void reader_entry(int ID)$/;"	f
+reader_entry	read_write_s.c	/^void reader_entry(int ID)$/;"	f
+reader_exit	read_write_m.c	/^void reader_exit(int ID)$/;"	f
+reader_exit	read_write_s.c	/^void reader_exit(int ID)$/;"	f
+rwc	read_write_m.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+rwc	read_write_s.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+semaphore_t	sem.h	/^typedef struct semaphore_t {$/;"	s
+semaphore_t	sem.h	/^} semaphore_t;$/;"	t	typeref:struct:semaphore_t
+semaphore_t	sem_test.c	/^typedef struct semaphore_t {$/;"	s	file:
+semaphore_t	sem_test.c	/^} semaphore_t;$/;"	t	typeref:struct:semaphore_t	file:
+stack	race-c.c	/^void *stack;$/;"	v
+start_thread	thread_test.c	/^pthread_t start_thread(void *func, int *arg)$/;"	f
+start_thread	threads.h	/^pthread_t start_thread(void *func, int *arg)$/;"	f
+unlock	lock_test.c	/^void unlock (lock_t *l)$/;"	f
+updating	proj.c	/^int printing=0, updating=0;$/;"	v
+w_cond	read_write_m.c	/^monitor_cond_t r_cond, w_cond;$/;"	v
+w_sem	read_write_s.c	/^semaphore_t r_sem, w_sem, mutex;$/;"	v
+wc	read_write_m.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+wc	read_write_s.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+writer	read_write_m.c	/^void writer(void)$/;"	f
+writer	read_write_s.c	/^void writer(void)$/;"	f
+writer_entry	read_write_m.c	/^void writer_entry(int ID)$/;"	f
+writer_entry	read_write_s.c	/^void writer_entry(int ID)$/;"	f
+writer_exit	read_write_m.c	/^void writer_exit(int ID)$/;"	f
+writer_exit	read_write_s.c	/^void writer_exit(int ID)$/;"	f
+wwc	read_write_m.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+wwc	read_write_s.c	/^int rwc = 0, wwc = 0, rc = 0, wc = 0, global_ID=0;$/;"	v
+x	race-c.c	/^int x=1;$/;"	v
+x	race-p.c	/^int x;$/;"	v

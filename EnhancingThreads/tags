@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddQueue	q.h	/^void AddQueue(qElement_t **head, qElement_t *item)$/;"	f
+BUFFER_LEN	thread_test.c	9;"	d	file:
+Block	sem.h	/^static void Block(Semaphore_t *sem) $/;"	f
+CreateSem	sem.h	/^Semaphore_t *CreateSem(int InputValue)$/;"	f
+Curr_Thread	thread_test.c	/^qElement_t *ReadyQ, *Curr_Thread;$/;"	v
+DelQueue	q.h	/^qElement_t *DelQueue(qElement_t **head)$/;"	f
+FreeItem	q.h	/^void FreeItem(qElement_t *item)$/;"	f
+NewItem	q.h	/^qElement_t *NewItem()$/;"	f
+NewQueue	q.h	/^qElement_t *NewQueue()$/;"	f
+P	sem.h	/^void P(Semaphore_t *sem)$/;"	f
+PrintQueue	q.h	/^void PrintQueue(qElement_t *head)$/;"	f
+ReadyQ	thread_test.c	/^qElement_t *ReadyQ, *Curr_Thread;$/;"	v
+STACK_SIZE	threads.h	7;"	d
+Semaphore_t	sem.h	/^struct Semaphore_t$/;"	s
+Semaphore_t	sem.h	/^typedef struct Semaphore_t Semaphore_t;$/;"	t	typeref:struct:Semaphore_t
+TCB_Q	sem.h	/^    qElement_t *TCB_Q;$/;"	m	struct:Semaphore_t
+TCB_t	TCB.h	/^struct TCB_t$/;"	s
+TCB_t	TCB.h	/^typedef struct TCB_t TCB_t;$/;"	t	typeref:struct:TCB_t
+V	sem.h	/^void V(Semaphore_t *sem)$/;"	f
+buffer	thread_test.c	/^int buffer[BUFFER_LEN];$/;"	v
+buffer_pointer	thread_test.c	/^int buffer_pointer = -1;$/;"	v
+consumer	thread_test.c	/^void consumer()$/;"	f
+context	TCB.h	/^    ucontext_t context;$/;"	m	struct:TCB_t
+count	sem.h	/^    int count;$/;"	m	struct:Semaphore_t
+init_TCB	TCB.h	/^void init_TCB (TCB_t *tcb, void *function, void *stackP, int stack_size)$/;"	f
+main	thread_test.c	/^int main()$/;"	f
+next	q.h	/^    qElement_t *next;$/;"	m	struct:qElement_t
+prev	q.h	/^    qElement_t *prev;$/;"	m	struct:qElement_t
+print_buffer	thread_test.c	/^void print_buffer(char *caller_name)$/;"	f
+producer	thread_test.c	/^void producer()$/;"	f
+qElement_t	q.h	/^struct qElement_t$/;"	s
+qElement_t	q.h	/^typedef struct qElement_t qElement_t;$/;"	t	typeref:struct:qElement_t
+run	threads.h	/^void run()$/;"	f
+start_thread	threads.h	/^void start_thread(void (*function)(void))$/;"	f
+tcb	q.h	/^    TCB_t *tcb; \/\/ payload$/;"	m	struct:qElement_t
+thread_id	TCB.h	/^    int thread_id;$/;"	m	struct:TCB_t
+yield	threads.h	/^void yield() \/\/ similar to run$/;"	f
